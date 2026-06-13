@@ -230,10 +230,6 @@ python VGG_Loss_Landscape.py --epochs 20
 | `VGG_A.pth` | Part 2 VGG-A 权重 | ~37 MB |
 | `VGG_A_BatchNorm.pth` | Part 2 VGG-A+BN 权重 | ~37 MB |
 
-**网盘下载链接**：[请填写 Google Drive / 百度网盘链接]
-
-**GitHub 代码**：https://github.com/Mr-Rubio/Neural-Network-PJ2
-
 ---
 
 ## 5. 参考文献
@@ -244,17 +240,4 @@ python VGG_Loss_Landscape.py --epochs 20
 4. Santurkar, S., et al. How Does Batch Normalization Help Optimization? NeurIPS, 2018.
 5. Hendrycks, D., & Gimpel, K. Gaussian Error Linear Units (GELUs). arXiv:1606.08415, 2016.
 
----
 
-## 附录：提交清单
-
-- [x] Part 1 自定义 CNN 及 6 组对照实验
-- [x] Part 2 VGG-A/BN 对比 + Loss Landscape
-- [x] 可视化（训练曲线、卷积核、特征图、Loss Landscape）
-- [x] 代码 + README + .gitignore
-- [ ] **姓名、学号**（请填写文首）
-- [ ] **GitHub 链接**（请填写 §4）
-- [ ] **模型权重网盘链接**（请填写 §4）
-- [ ] **导出 PDF 并上传 elearning**（截止 2026-06-14 23:59）
-
-> 将本 Markdown 用 Typora / VS Code Markdown PDF / Pandoc 导出为 PDF 后提交。
