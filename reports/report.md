@@ -1,8 +1,6 @@
 # Project-2：神经网络与深度学习
 
 **课程**：Neural Network and Deep Learning  
-**姓名**：王瀚棽 
-**学号**：23307140010  
 **日期**：2026年6月
 
 ---
@@ -14,7 +12,6 @@
 **最佳分类结果**：CustomCNN（base + GELU + Adam）验证准确率 **89.82%**（test error **10.18%**），参数量 3.25M。
 
 **代码仓库**：https://github.com/Mr-Rubio/Neural-Network-PJ2  
-**模型权重网盘**：[Google Drive / 百度网盘链接 — 请填写]  
 **数据集**：CIFAR-10，通过 `torchvision.datasets.CIFAR10(download=True)` 自动下载至 `data/` 目录，无需单独上传。
 
 ---
