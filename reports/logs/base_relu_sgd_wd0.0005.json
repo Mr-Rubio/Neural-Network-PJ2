@@ -1,0 +1,13 @@
+{
+  "variant": "base",
+  "activation": "relu",
+  "optimizer": "sgd",
+  "lr": 0.1,
+  "weight_decay": 0.0005,
+  "epochs": 30,
+  "n_params": 3249098,
+  "best_val_acc": 0.892,
+  "avg_epoch_time": 25.25074287255605,
+  "model_path": "D:\\vscode\\deep\\PJ2_2026\\reports\\models\\cifar10_base_relu_sgd_wd0.0005.pth",
+  "figure_path": "D:\\vscode\\deep\\PJ2_2026\\reports\\figures\\cifar10\\base_relu_sgd_wd0.0005_curves.png"
+}

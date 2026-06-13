@@ -1,0 +1,13 @@
+{
+  "variant": "base",
+  "activation": "gelu",
+  "optimizer": "adam",
+  "lr": 0.001,
+  "weight_decay": 0.0,
+  "epochs": 30,
+  "n_params": 3249098,
+  "best_val_acc": 0.8982,
+  "avg_epoch_time": 26.19749355316162,
+  "model_path": "D:\\vscode\\deep\\PJ2_2026\\reports\\models\\cifar10_base_gelu_adam_wd0.0.pth",
+  "figure_path": "D:\\vscode\\deep\\PJ2_2026\\reports\\figures\\cifar10\\base_gelu_adam_wd0.0_curves.png"
+}

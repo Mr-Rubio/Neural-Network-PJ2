@@ -1,0 +1,80 @@
+[
+  {
+    "variant": "base",
+    "activation": "gelu",
+    "optimizer": "adam",
+    "lr": 0.001,
+    "weight_decay": 0.0,
+    "epochs": 30,
+    "n_params": 3249098,
+    "best_val_acc": 0.8982,
+    "avg_epoch_time": 26.19749355316162,
+    "model_path": "D:\\vscode\\deep\\PJ2_2026\\reports\\models\\cifar10_base_gelu_adam_wd0.0.pth",
+    "figure_path": "D:\\vscode\\deep\\PJ2_2026\\reports\\figures\\cifar10\\base_gelu_adam_wd0.0_curves.png"
+  },
+  {
+    "variant": "base",
+    "activation": "relu",
+    "optimizer": "sgd",
+    "lr": 0.1,
+    "weight_decay": 0.0005,
+    "epochs": 30,
+    "n_params": 3249098,
+    "best_val_acc": 0.892,
+    "avg_epoch_time": 25.25074287255605,
+    "model_path": "D:\\vscode\\deep\\PJ2_2026\\reports\\models\\cifar10_base_relu_sgd_wd0.0005.pth",
+    "figure_path": "D:\\vscode\\deep\\PJ2_2026\\reports\\figures\\cifar10\\base_relu_sgd_wd0.0005_curves.png"
+  },
+  {
+    "variant": "base",
+    "activation": "relu",
+    "optimizer": "adam",
+    "lr": 0.001,
+    "weight_decay": 0.0,
+    "epochs": 30,
+    "n_params": 3249098,
+    "best_val_acc": 0.8919,
+    "avg_epoch_time": 54.43911102612813,
+    "model_path": "D:\\vscode\\deep\\PJ2_2026\\reports\\models\\cifar10_base_relu_adam_wd0.0.pth",
+    "figure_path": "D:\\vscode\\deep\\PJ2_2026\\reports\\figures\\cifar10\\base_relu_adam_wd0.0_curves.png"
+  },
+  {
+    "variant": "base",
+    "activation": "relu",
+    "optimizer": "adamw",
+    "lr": 0.001,
+    "weight_decay": 0.01,
+    "epochs": 30,
+    "n_params": 3249098,
+    "best_val_acc": 0.8892,
+    "avg_epoch_time": 28.496650393803915,
+    "model_path": "D:\\vscode\\deep\\PJ2_2026\\reports\\models\\cifar10_base_relu_adamw_wd0.01.pth",
+    "figure_path": "D:\\vscode\\deep\\PJ2_2026\\reports\\figures\\cifar10\\base_relu_adamw_wd0.01_curves.png"
+  },
+  {
+    "variant": "wide",
+    "activation": "relu",
+    "optimizer": "adam",
+    "lr": 0.001,
+    "weight_decay": 0.0,
+    "epochs": 30,
+    "n_params": 8778122,
+    "best_val_acc": 0.8829,
+    "avg_epoch_time": 170.20854592323303,
+    "model_path": "D:\\vscode\\deep\\PJ2_2026\\reports\\models\\cifar10_wide_relu_adam_wd0.0.pth",
+    "figure_path": "D:\\vscode\\deep\\PJ2_2026\\reports\\figures\\cifar10\\wide_relu_adam_wd0.0_curves.png"
+  },
+  {
+    "variant": "base",
+    "activation": "relu",
+    "optimizer": "adam",
+    "lr": 0.001,
+    "weight_decay": 0.0005,
+    "epochs": 30,
+    "n_params": 3249098,
+    "best_val_acc": 0.8661,
+    "avg_epoch_time": 28.157890931765237,
+    "model_path": "D:\\vscode\\deep\\PJ2_2026\\reports\\models\\cifar10_base_relu_adam_wd0.0005.pth",
+    "figure_path": "D:\\vscode\\deep\\PJ2_2026\\reports\\figures\\cifar10\\base_relu_adam_wd0.0005_curves.png"
+  }
+]

@@ -1,0 +1,66 @@
+# ===== 数据集（体积大，用 torchvision 自动下载） =====
+/data/
+**/cifar-10-batches-py/
+**/cifar-10-python.tar.gz
+
+# ===== 模型权重（上传网盘，报告里附链接） =====
+reports/models/*.pth
+reports/models/*.pt
+reports/models/*.ckpt
+*.pth
+*.pt
+*.ckpt
+
+# ===== 实验中间数据（可从 txt/npy 重绘） =====
+reports/figures/*.npy
+reports/figures/*_curve_*.txt
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# ===== 虚拟环境 =====
+.env
+.venv/
+venv/
+env/
+
+# ===== IDE / 系统 =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===== LaTeX / LyX 编译产物（保留 .lyx / .tex / .pdf 源稿） =====
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# ===== 临时文件 =====
+*.tmp
+*.bak
+sample.png
+
+# ===== 保留 reports 中的图表（报告需要引用） =====
+!reports/figures/**/*.png
+!reports/logs/**/*.json
